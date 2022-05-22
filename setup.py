@@ -50,7 +50,7 @@ setup(
         'ipympl==0.8.2',
         'ipywidgets==7.6.5',
         'ipykernel==6.5.0',
-        'ipython==7.29.0',
+        'ipython==7.31.1',
         'ipython-genutils==0.2.0',
         'jupyter-client==7.0.6',
         'jupyter-core==4.9.1',
