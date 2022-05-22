@@ -58,7 +58,7 @@ setup(
         'Jinja2>3.0.2',
         'jsonschema==4.2.1',
         'ruamel.yaml==0.17.17',
-        'Django==2.2.24',
+        'Django==2.2.28',
         'djangorestframework==3.12.4',
         'djangorestframework-simplejwt==4.7.2',
         'Unipath==1.1',
