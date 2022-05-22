@@ -3,7 +3,7 @@ from distutils.extension import Extension
 import subprocess
 import sys
 
-subprocess.check_call([sys.executable, "-m", "pip", "install", 'Cython==0.29.24', 'numpy==1.20.3'])
+subprocess.check_call([sys.executable, "-m", "pip", "install", 'Cython==0.29.24', 'numpy==1.21.0'])
 from Cython.Build import cythonize
 import numpy
 from jeta.version import __version__
@@ -66,7 +66,7 @@ setup(
         'jhub-remote-user-authenticator==0.1.0',
         'jupyterhub-dummyauthenticator==0.3.1',
         'Cython==0.29.24',
-        'numpy==1.20.3',
+        'numpy==1.21.0',
         'pandas==1.3.4',
         'astropy==4.3.1',
         'torch==1.10.0',
